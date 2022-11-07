@@ -1,11 +1,15 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Header from './components/Header';
+import PhotocardArea from './components/PhotocardArea';
 
 function App() {
   return (
-    <div>
+    <>
     <Navbar/>
-    </div>
+    <Header/>
+    <PhotocardArea/>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaSearch} from 'react-icons/fa'
+import {FaSearch, FaUserAstronaut} from 'react-icons/fa'
 import {SiPexels, SiPixabay, SiUnsplash} from 'react-icons/si'
 
 function Navbar() {
@@ -13,10 +13,10 @@ function Navbar() {
             </div>
             <div className='navbar-links'>
                 <ul>
-                    <li><a href='#'><SiPixabay/> Pixabay</a></li>
-                    <li><a href='#'><SiPexels/> Pexels</a></li>
-                    <li><a href='#'><SiUnsplash/> Unsplash</a></li>
-                    <li><a href='#'>Link4</a></li>
+                    <li><a href='https://pixabay.com/'><SiPixabay/> Pixabay</a></li>
+                    <li><a href='https://www.pexels.com/'><SiPexels/> Pexels</a></li>
+                    <li><a href='https://unsplash.com/'><SiUnsplash/> Unsplash</a></li>
+                    <li><a href='https://lawrence-yoon.github.io/portfolio_v1/'><FaUserAstronaut/>Lawrence Yoon</a></li>
                 </ul>
             </div>
         </nav>
