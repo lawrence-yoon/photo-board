@@ -1,5 +1,6 @@
 {
   "name": "photo-board",
+  "description": "front-end application clone of flipboard, pexels, and other image based web applications",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
