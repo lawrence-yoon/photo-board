@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaSearch, FaUserAstronaut} from 'react-icons/fa'
+import {FaSearch, FaUserAstronaut, FaBars} from 'react-icons/fa'
 import {SiPexels, SiPixabay, SiUnsplash} from 'react-icons/si'
 
 function Navbar() {
@@ -7,10 +7,7 @@ function Navbar() {
     <>
         <nav className='navbar'>
             <div className='app-title'><a href='#'>Photo Board</a></div>
-            <div className="search-bar">
-                <input type="text" className="search-field" />
-                <button className='search-button'><FaSearch/> Search</button>
-            </div>
+            <a href="#" className='burger-toggle'><FaBars/></a>
             <div className='navbar-links'>
                 <ul>
                     <li><a href='https://pixabay.com/'><SiPixabay/> Pixabay</a></li>
