@@ -100,7 +100,7 @@ body {
   .navbar-links ul{
     width: 100%;
     flex-direction: column;
-    text-align: end;
+    text-align: center;
   }
   .navbar-links a{
     padding: 0.25rem 1rem
