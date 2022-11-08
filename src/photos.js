@@ -1,0 +1,32 @@
+const photosList = [
+    {url:"https://images.pexels.com/photos/11860376/pexels-photo-11860376.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://images.pexels.com/photos/14270583/pexels-photo-14270583.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://images.pexels.com/photos/7594466/pexels-photo-7594466.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://images.pexels.com/photos/14268955/pexels-photo-14268955.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://images.pexels.com/photos/13915489/pexels-photo-13915489.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://images.pexels.com/photos/12406744/pexels-photo-12406744.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://images.pexels.com/photos/9135989/pexels-photo-9135989.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://images.pexels.com/photos/12290139/pexels-photo-12290139.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://images.pexels.com/photos/6200877/pexels-photo-6200877.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"},
+    {url:"https://cdn.pixabay.com/photo/2022/10/25/21/41/insect-7546974__340.jpg"},
+    {url:"https://cdn.pixabay.com/photo/2022/10/19/01/18/cherry-blossom-7531346__340.jpg"},
+    {url:"https://cdn.pixabay.com/photo/2022/10/21/03/29/relationship-7536124__340.jpg"},
+    {url:"https://cdn.pixabay.com/photo/2022/04/20/06/28/flowers-7144466__340.jpg"},
+    {url:"https://cdn.pixabay.com/photo/2022/10/29/21/19/sea-7556126__340.jpg"},
+    {url:"https://cdn.pixabay.com/photo/2022/10/12/18/18/autumn-7517221__340.jpg"},
+    {url:"https://cdn.pixabay.com/photo/2022/10/23/00/05/flower-7540214__340.jpg"},
+    {url:"https://cdn.pixabay.com/photo/2022/10/22/13/23/flamingo-7539231__340.jpg"},
+    {url:"https://cdn.pixabay.com/photo/2022/10/20/12/36/germany-7534750__340.jpg"},
+    {url:"https://images.unsplash.com/photo-1667506057454-87e10fb157d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"},
+    {url:"https://images.unsplash.com/photo-1667715191315-351400a5789a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"},
+    {url:"https://images.unsplash.com/photo-1667115309127-129abb76b714?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"},
+    {url:"https://images.unsplash.com/photo-1667778680572-5c696f682867?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"},
+    {url:"https://images.unsplash.com/photo-1667480185396-3650386c3521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"},
+    {url:"https://images.unsplash.com/photo-1667588732543-5c2c989126e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"},
+    {url:"https://images.unsplash.com/photo-1667506057340-6f9f6140884f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"},
+    {url:"https://images.unsplash.com/photo-1667788383737-debb819e5ad9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"},
+    {url:"https://images.unsplash.com/photo-1667778679904-9d008f9f22c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"},
+]
+
+
+export default photosList
