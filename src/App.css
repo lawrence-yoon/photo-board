@@ -7,7 +7,7 @@
 }
 
 html {
-  background-color:#272727;
+  background-color:black;
 }
 
 header {
@@ -53,7 +53,7 @@ body {
 .navbar-links a{
   text-decoration: none;
   color: whitesmoke;
-  padding: 1rem;
+  padding: 13.5px 16px;
   display: block
 }
 
@@ -64,11 +64,14 @@ body {
 .burger-toggle {
   position: absolute;
   display: none;
-  top: 14px;
-  right: 16px;
+  top: 0;
+  right: 0;
   text-decoration: none;
   color: whitesmoke;
+  background-color: black;
   font-size: 1.5rem;
+  border: 0;
+  padding: 0.75rem;
 }
 
 .header-image {
@@ -78,13 +81,12 @@ body {
 .card-area {
   margin:0;
   padding:0;
-  background-color: black;
   color: white;
 }
 
 @media (max-width: 629px) {
   .burger-toggle {
-    display: flex
+    display: flex;
   }
   .navbar-links {
     display: none;
@@ -102,8 +104,9 @@ body {
   .navbar-links a{
     padding: 0.25rem 1rem
   }
-/*need to figure out how to toggle this with react state hooks*/
+/* need to figure out how to toggle this with react state hooks*/
   .navbar-links.active {
-    display: flex
+    display: flex;
+/* i want to rotate this burger menu, 90 degrees with animation when active */
   }
 }

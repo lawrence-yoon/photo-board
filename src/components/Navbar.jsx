@@ -1,13 +1,24 @@
-import React from 'react'
-import {FaSearch, FaUserAstronaut, FaBars} from 'react-icons/fa'
+import React, {useState} from 'react'
+import {FaUserAstronaut, FaBars} from 'react-icons/fa'
 import {SiPexels, SiPixabay, SiUnsplash} from 'react-icons/si'
 
 function Navbar() {
+    const [burgerToggle, setBurgerToggle] = useState(false)
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+    const toggleHandler = function(){
+        if(!burgerToggle){
+            navbarLinks.classList.toggle('active')
+            setBurgerToggle(true)
+        }   else{
+            navbarLinks.classList.toggle('active')
+            setBurgerToggle(false)
+        }
+    }
   return (
     <>
         <nav className='navbar'>
             <div className='app-title'><a href='#'>Photo Board</a></div>
-            <a href="#" className='burger-toggle'><FaBars/></a>
+            <button className='burger-toggle' onClick={toggleHandler}><FaBars/></button>
             <div className='navbar-links'>
                 <ul>
                     <li><a href='https://pixabay.com/'><SiPixabay/> Pixabay</a></li>
