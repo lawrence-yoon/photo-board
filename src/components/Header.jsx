@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <header>
-        <img src="images/page-bg.jpg" alt="header" className='header-image'/>
+        <img src="images/flowers-7144466_960_720.jpg" alt="header" className='header-image'/>
       </header>
     </>
   )

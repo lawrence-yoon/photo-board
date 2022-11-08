@@ -5,7 +5,8 @@ import {SiPexels, SiPixabay, SiUnsplash} from 'react-icons/si'
 function Navbar() {
     const [burgerToggle, setBurgerToggle] = useState(false)
     const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-    const toggleHandler = function(){
+    const toggleHandler = function(e){
+        e.prevent.default();
         if(!burgerToggle){
             navbarLinks.classList.toggle('active')
             setBurgerToggle(true)
@@ -17,7 +18,7 @@ function Navbar() {
   return (
     <>
         <nav className='navbar'>
-            <div className='app-title'><a href='#'>Photo Board</a></div>
+            <button className='app-title'>Photo Board</button>
             <button className='burger-toggle' onClick={toggleHandler}><FaBars/></button>
             <div className='navbar-links'>
                 <ul>

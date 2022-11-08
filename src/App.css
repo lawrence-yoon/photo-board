@@ -76,6 +76,7 @@ body {
 
 .header-image {
   width: 100%;
+  height: 500px;
 }
 
 .card-area {
@@ -84,7 +85,7 @@ body {
   color: white;
 }
 
-@media (max-width: 629px) {
+@media (max-width: 647px) {
   .burger-toggle {
     display: flex;
   }
