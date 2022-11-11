@@ -3,7 +3,7 @@ import React from 'react'
 function Photocard({url}) {
   return (
     <>
-    <img src={url} alt="" />
+    <img className='photo' src={url} alt="" />
     </>
   )
 }

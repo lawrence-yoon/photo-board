@@ -10,11 +10,11 @@ import PhotocardArea from './components/PhotocardArea';
 //basic layout done, brought in images form the image list.
 function App() {
   return (
-    <>
+    <div>
     <Navbar/>
     <Header/>
     <PhotocardArea/>
-    </>
+    </div>
   );
 }
 

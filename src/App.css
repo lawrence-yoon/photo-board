@@ -13,6 +13,14 @@ html {
 header {
   margin:0;
   padding:0;
+  height: 500px;
+  box-sizing: border-box
+}
+
+.header-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%
 }
 
 body {
@@ -21,8 +29,9 @@ body {
 }
 
 .navbar {
-  position:fixed;
-  z-index: 1;
+  /* the sticky only within parent element... fragment doesnt count, so i wrapped it around a div*/
+  position:sticky;
+  top:0;
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -74,15 +83,19 @@ body {
   padding: 0.75rem;
 }
 
-.header-image {
-  width: 100%;
-  height: 500px;
-}
+
 
 .card-area {
-  margin:0;
+  display:grid;
+  margin:30px;
   padding:0;
   color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+}
+
+.photo {
+  width: 75%
 }
 
 @media (max-width: 647px) {

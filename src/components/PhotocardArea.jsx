@@ -5,8 +5,9 @@ import photos from '../photos'
 function PhotocardArea() {
   return (
     <>
-    <div className='card-area'>PhotocardArea</div>
+    <div className='card-area'>
     { photos.map(entry=><Photocard {...entry}/>)}
+    </div>
     </>
   )
 }
